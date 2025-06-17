@@ -9,7 +9,7 @@ namespace ProductosAPI.Data
         private static readonly SqlHelper _instancia = new SqlHelper();
 
         // Cadena de conexión a tu base de datos
-        private readonly string _connectionString = "Server=localhost;Database=MiBaseDeDatos;Trusted_Connection=True;";
+        private readonly string _connectionString = "Server=localhost;Database=ProductosAPI;Trusted_Connection=True;";
 
         // Constructor privado para que no se pueda crear desde fuera
         private SqlHelper() { }
