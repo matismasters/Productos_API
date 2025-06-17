@@ -29,21 +29,29 @@ namespace ProductosAPI.Models
 
         public static Producto Buscar(int id)
         {
+            // Producto.Buscar(10) (static)
             // Devolvemos el producto con ese id de la BD
         }
 
         public void Actualizar()
         {
+            // producto.Nombre = "algoNuevo"
+            // producto.Actualizar()
             // Hace un update de este producto
         }
 
         public Producto Crear()
         {
+            // Producto producto = new Producto("Monitor", "2000");
+            // producto.Crear()
             // Crea este producto en la base de datos, tienen que manejar los errores
         }
         
         public void Borrar()
         {
+            // Producto producto = new Producto("Monitor", "2000");
+            // producto.Crear()
+            // producto.Borrar()
             // Borra este producto de la base de datos.
         }
 
